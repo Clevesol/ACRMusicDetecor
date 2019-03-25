@@ -102,7 +102,7 @@ public class ACRMusicDetector extends CordovaPlugin implements IACRCloudListener
             //this.mConfig.dbPath = path; // offline db path, you can change it with other path which this app can access.
             this.mConfig.accessKey = this.config.getUser();
             this.mConfig.accessSecret = this.config.getAuth_key();
-            this.mConfig.protocol = ACRCloudConfig.ACRCloudNetworkProtocol.PROTOCOL_HTTPS; // PROTOCOL_HTTPS
+            this.mConfig.protocol = ACRCloudConfig.ACRCloudNetworkProtocol.PROTOCOL_HTTP; // PROTOCOL_HTTPS
             //this.mConfig.reqMode = ACRCloudConfig.ACRCloudRecMode.REC_MODE_REMOTE;
             //this.mConfig.reqMode = ACRCloudConfig.ACRCloudRecMode.REC_MODE_LOCAL;
             this.mConfig.reqMode = ACRCloudConfig.ACRCloudRecMode.REC_MODE_REMOTE;
